@@ -15,10 +15,12 @@ people:
   social:
     - title: twitter
       url: http://twitter.com/jonny_polonsky
-    - title: facebook
-      url: https://www.facebook.com/jonny.polonsky
     - title: linkedin
       url: https://www.linkedin.com/in/jonnypolonsky
+    - title: stack-overflow
+      url: #
+    - title: github
+      url: http://github.com/jpolonsky
 
 - name: Xavier de Radiguès
   pic: 2
