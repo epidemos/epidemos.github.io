@@ -352,7 +352,7 @@ header .intro-text .intro-follow-up {
     /*font-family: {{ site.data.template.font.primary }};*/
     font-size: 40px;
     font-style: italic;
-    line-height: 22px;
+    line-height: 40px;
     padding-bottom: 50px;
 }
 
