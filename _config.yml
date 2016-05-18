@@ -19,10 +19,12 @@ people:
       url: http://twitter.com/jonny_polonsky
     - title: linkedin
       url: https://www.linkedin.com/in/jonnypolonsky
-    - title: stack-overflow
-      url: http://stackoverflow.com/users/1540735/jonny-polonsky
+    # - title: stack-overflow
+    #   url: http://stackoverflow.com/users/1540735/jonny-polonsky
     - title: github
       url: http://github.com/jpolonsky
+    - title: pencil
+      url: http://communicationinscience.com
 
 - name: Xavier de Radiguès
   pic: 2
