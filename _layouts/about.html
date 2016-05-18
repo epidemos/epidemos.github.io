@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
 
-    <body id="page-top" class="index">
+<body id="page-top" class="index">
 
     <!-- Navigation -->
     <nav class="navbar navbar-subpage">
@@ -50,18 +50,53 @@
 
 
     <!-- About text -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About epidemos</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+
             <div class="about">
-            <h1>About</h1>
-            <p>You can optionally insert a brief bio here. You went to this school, you studied that, you now work in this field with research interests in that subject. At your previous position at this place, you worked on this or that. You can list some of your significant accomplishments, awards, or recognition here as well. You live in this city with these animals and people. In your free time you like X, Y, and Z.</p>
+                <p>Jonathan received an undergraduate degree in Human Sciences at Oxford University, followed by a postgraduate degree in epidemiology at the London School of Hygiene and Tropical Medicine (LSHTM). He has been involved in conducting and communicating biomedical research in a variety of posts at LSHTM, the World Health Organization (WHO), and Médecins Sans Frontières (MSF). Jonathan is currently employed part-time as an epidemiologist with Epicentre (a research department of MSF), and as Senior Health Advisor to Relief International. Jonathan is a member of the European Association of Science Editors (EASE), and has conducted workshops in scientific communication in a number of countries, including France, Germany, Spain, Morocco, Myanmar, and Senegal.</p>
 
-            <ul class="contacts">
-                <li><a href="#">@TwitterHandle</a></li>
-                <li><a href="#">Your Departmental Webpage</a></li>
-                <li><a href="#">Another site you want to link to</a></li>
+                <ul class="links">
+                    <li><a href="https://twitter.com/jonny_polonsky">@jonny_polonsky</a></li>
+                    <li><a href="http://communicationinscience.com/">Communication in Science</a></li>
                 </ul>
+            </div>
+
+            <div class="row">
+                {% for member in site.people %}
+                <div class="col-sm-4">
+                    <div class="team-member">
+                    <img src="../img/team/{{ member.pic }}.png" class="img-responsive img-circle" alt="">
+                        <h4>{{ member.name }}</h4>
+                        <p class="text-muted">{{ member.position }}</p>
+                        <ul class="list-inline social-buttons">
+                            {% for network in member.social %}
+                            <li>
+                                <a href="{{ network.url }}">
+                                    <i class="fa fa-{{ network.title }}"></i>
+                                </a>
+                            </li>
+                            {% endfor %}
+
+                        </ul>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+
         </div>
+    </section>
 
+    <div class="container">
         {% include disqus.html %} 
+    </div>
 
-    </body>
+</body>
 </html>
