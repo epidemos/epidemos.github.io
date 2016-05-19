@@ -15,9 +15,8 @@ people:
   pic: 1
   position: Epidemiologist/Lead data scientist
   social:
-    - title: envelope-o
-      # url: <span class="obfuscate">moc.liamg@yksnolop.ynnoj</span>
-      # url: mailto:jonathan@epidemos.com
+    # - title: envelope-o
+    #   url: mailto:jonathan@epidemos.com
     - title: twitter
       url: http://twitter.com/jonny_polonsky
     - title: linkedin
