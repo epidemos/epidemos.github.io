@@ -309,38 +309,6 @@ fieldset[disabled] .btn-xl.active {
         font-size: 1.5em;
     }
 
-
-
-    .navbar-subpage {
-        padding: 25px 0;
-        border: 0;
-        background-color: #222;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-    }
-
-    .navbar-subpage .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-
-    .navbar-subpage .navbar-nav>.active>a {
-        border-radius: 3px;
-    }
-
-    .navbar-subpage.navbar-shrink {
-        padding: 10px 0;
-        background-color: #222;
-    }
-
-    .navbar-subpage.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
-
-
 }
 
 header {

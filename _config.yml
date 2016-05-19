@@ -5,16 +5,19 @@ baseurl: /epidemos.github.io/
 
 # Site settings
 title: epidemos
-email: jonny.polonsky@gmail.com
+email: jonathan@epidemos.com
 description: "epidemos - epidemiology in disasters, emergencies, & outbreak settings"
 
 
 # Team names, titles and social links
 people:
-- name: Jonny Polonsky
+- name: Jonathan Polonsky
   pic: 1
   position: Epidemiologist/Lead data scientist
   social:
+    - title: envelope-o
+      # url: <span class="obfuscate">moc.liamg@yksnolop.ynnoj</span>
+      # url: mailto:jonathan@epidemos.com
     - title: twitter
       url: http://twitter.com/jonny_polonsky
     - title: linkedin
