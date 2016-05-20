@@ -1,0 +1,16 @@
+---
+title: Pledges & contributions
+subtitle: Online financial tracking tool
+project_website: https://prime.shinyapps.io/pledges/
+layout: default
+modal-id: 3
+date: 2016-05-20
+img: pledges.png
+thumbnail: pledges.png
+alt: image-alt
+project-date: April 2016
+client: World Health Organisation
+client_website: http://www.who.int/hac
+category: Data visualisation
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+---
