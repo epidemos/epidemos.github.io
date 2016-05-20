@@ -47,7 +47,7 @@ a.active {
 }
 
 h1,
-/*h2,*/
+h2,
 h3,
 h4,
 h5,
@@ -57,22 +57,6 @@ h6 {
     font-weight: 700;
 }
 
-h2 { 
-   position: absolute; 
-   top: 650px; 
-   left: 0; 
-   width: 100%; 
-}
-
-h2 span { 
-   color: white; 
-   /*font: bold 24px/45px Helvetica, Sans-Serif; */
-   font: 12px/1px Montserrat, Sans-Serif;
-   letter-spacing: 0px;  
-   /*background: rgb(0, 0, 0); /* fallback color */*/
-   background: rgba(0, 0, 0, 0.2);
-   padding: 10px; 
-}
 
 
 .img-centered {
