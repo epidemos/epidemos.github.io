@@ -314,9 +314,13 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
-    background-attachment: fixed;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
-    background-position: center center;
+    background-attachment: scroll;
+    /*background-attachment: fixed;*/
+    /*background-image: url('{{ site.baseurl }}/img/header-bg.jpg');*/
+    /*background-image: url('{{ site.baseurl }}/img/sl_morning.jpg');    */
+    /*background-image: url('{{ site.baseurl }}/img/ebola_bike.jpg');*/
+    background-image: url('{{ site.baseurl }}/img/sl_map.jpg');
+    background-position: center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;

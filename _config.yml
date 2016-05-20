@@ -32,11 +32,9 @@ people:
   pic: 2
   position: Epidemiologist/Lead zen master
   social:
-    - title: twitter
+    - title: linkedin
       url: #
     - title: facebook
-      url: #
-    - title: stack-overflow
       url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -44,14 +42,12 @@ social:
   - title: twitter
     url: http://twitter.com/epi_demos
   - title: facebook
-    url: https://www.facebook.com/epidemos
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/r
-  - title: bitbucket 
-    url: https://bitbucket.org/epidemos/
+    url: https://www.facebook.com/epidem0s
   - title: github
     url: http://github.com/epidemos
-
+  - title: bitbucket 
+    url: https://bitbucket.org/epidemos/
+  
 # Postal address (add as many lines as necessary)
 address:
   - line: Quai Charles-Page 37
