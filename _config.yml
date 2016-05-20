@@ -18,6 +18,8 @@ people:
   social:
     # - title: envelope-o
     #   url: mailto:jonathan@epidemos.com
+    - title: file-text-o
+      url: /cv/cv_polonsky.pdf
     - title: twitter
       url: http://twitter.com/jonny_polonsky
     - title: linkedin
@@ -28,19 +30,19 @@ people:
       url: http://github.com/jpolonsky
     - title: pencil
       url: http://communicationinscience.com
-    - title: file-text-o
-      url: /cv/cv_polonsky.pdf
+
 
 - name: Xavier de Radiguès
   pic: 2
-  position: Epidemiologist/Lead zen master
+  position: Epidemiologist/Senior health advisor
   social:
+    - title: file-text-o
+      url: /cv/cv_deradigues.pdf
     - title: linkedin
       url: #
     - title: facebook
       url: #
-    - title: file-text-o
-      url: /cv/cv_deradigues.pdf
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
