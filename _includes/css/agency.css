@@ -281,8 +281,106 @@ fieldset[disabled] .btn-xl.active {
 }
 
 
+/* Add navbar-subpage copied from navbar-default in bootstrap.css*/
 
+.navbar-subpage {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+.navbar-subpage .navbar-brand {
+  color: #777;
+}
+.navbar-subpage .navbar-brand:hover,
+.navbar-subpage .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+.navbar-subpage .navbar-text {
+  color: #777;
+}
+.navbar-subpage .navbar-nav > li > a {
+  color: #777;
+}
+.navbar-subpage .navbar-nav > li > a:hover,
+.navbar-subpage .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+}
+.navbar-subpage .navbar-nav > .active > a,
+.navbar-subpage .navbar-nav > .active > a:hover,
+.navbar-subpage .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+.navbar-subpage .navbar-nav > .disabled > a,
+.navbar-subpage .navbar-nav > .disabled > a:hover,
+.navbar-subpage .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.navbar-subpage .navbar-toggle {
+  border-color: #ddd;
+}
+.navbar-subpage .navbar-toggle:hover,
+.navbar-subpage .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.navbar-subpage .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.navbar-subpage .navbar-collapse,
+.navbar-subpage .navbar-form {
+  border-color: #e7e7e7;
+}
+.navbar-subpage .navbar-nav > .open > a,
+.navbar-subpage .navbar-nav > .open > a:hover,
+.navbar-subpage .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+  .navbar-subpage .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  .navbar-subpage .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-subpage .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  .navbar-subpage .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-subpage .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-subpage .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .navbar-subpage .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-subpage .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-subpage .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+.navbar-subpage .navbar-link {
+  color: #777;
+}
+.navbar-subpage .navbar-link:hover {
+  color: #333;
+}
+.navbar-subpage .btn-link {
+  color: #777;
+}
+.navbar-subpage .btn-link:hover,
+.navbar-subpage .btn-link:focus {
+  color: #333;
+}
+.navbar-subpage .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-subpage .btn-link:hover,
+.navbar-subpage .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-subpage .btn-link:focus {
+  color: #ccc;
+}
 
+/* end copy paste from bootstrap.css */
 .navbar-subpage {
     border-color: transparent;
     background-color: #222;
@@ -345,7 +443,6 @@ fieldset[disabled] .btn-xl.active {
     color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
 }
-
 
 
 
