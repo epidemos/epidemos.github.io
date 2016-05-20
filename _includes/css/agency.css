@@ -237,6 +237,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-collapse {
     border-color: rgba(255,255,255,.02);
+    /*border-color: rgba(255,255,255,1);*/
 }
 
 .navbar-default .navbar-toggle {
@@ -279,11 +280,81 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.secondary }};
 }
 
+
+
+
+.navbar-subpage {
+    border-color: transparent;
+    background-color: #222;
+}
+
+.navbar-subpage .navbar-brand {
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    /*color: #{{ site.data.template.color.primary }};*/
+    color: #{{ site.data.template.color.secondary }};
+}
+
+.navbar-subpage .navbar-brand:hover,
+.navbar-subpage .navbar-brand:focus,
+.navbar-subpage .navbar-brand:active,
+.navbar-subpage .navbar-brand.active {
+    color: #{{ site.data.template.color.secondary }};
+}
+
+.navbar-subpage .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+    /*border-color: rgba(255,255,255,1);*/
+}
+
+.navbar-subpage .navbar-toggle {
+    border-color: #{{ site.data.template.color.primary }};
+    background-color: #{{ site.data.template.color.primary }};
+}
+
+.navbar-subpage .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-subpage .navbar-toggle:hover,
+.navbar-subpage .navbar-toggle:focus {
+    background-color: #{{ site.data.template.color.primary }};
+}
+
+.navbar-subpage .nav li a {
+    text-transform: uppercase;
+    font-family: {{ site.data.template.font.primary }};
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.navbar-subpage .nav li a:hover,
+.navbar-subpage .nav li a:focus {
+    outline: 0;
+    color: #{{ site.data.template.color.primary }};
+}
+
+.navbar-subpage .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #{{ site.data.template.color.primary }};
+}
+
+.navbar-subpage .navbar-nav>.active>a:hover,
+.navbar-subpage .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #{{ site.data.template.color.secondary }};
+}
+
+
+
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
         border: 0;
         background-color: transparent;
+        /*background-color: #222;*/
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -309,13 +380,45 @@ fieldset[disabled] .btn-xl.active {
         font-size: 1.5em;
     }
 
+
+
+    .navbar-subpage {
+        padding: 25px 0;
+        border: 0;
+        /*background-color: transparent;*/
+        background-color: #222;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-subpage .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-subpage .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-subpage.navbar-shrink {
+        padding: 10px 0;
+        background-color: #222;
+    }
+
+    .navbar-subpage.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+
 }
 
 header {
     text-align: center;
     color: #fff;
-    /*background-attachment: scroll;*/
-    background-attachment: local;
+    background-attachment: scroll;
+    /*background-attachment: fixed;*/
     /*background-image: url('{{ site.baseurl }}/img/header-bg.jpg');*/
     /*background-image: url('{{ site.baseurl }}/img/sl_morning.jpg');    */
     /*background-image: url('{{ site.baseurl }}/img/ebola_bike.jpg');*/
@@ -384,6 +487,19 @@ header .intro-text .intro-follow-up {
         line-height: 75px;
     }
 }
+
+/*section {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url('{{ site.baseurl }}/img/inversion.jpg');
+    background-position: center;
+    background-repeat: none none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}*/
 
 section {
     padding: 100px 0;

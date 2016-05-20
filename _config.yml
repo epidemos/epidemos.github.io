@@ -14,6 +14,7 @@ people:
 - name: Jonathan Polonsky
   pic: 1
   position: Epidemiologist/Lead data scientist
+  cv: <a href="/cv/cv_polonsky.pdf" download>
   social:
     # - title: envelope-o
     #   url: mailto:jonathan@epidemos.com
@@ -27,6 +28,8 @@ people:
       url: http://github.com/jpolonsky
     - title: pencil
       url: http://communicationinscience.com
+    - title: pencil
+      url: /cv/cv_polonsky.pdf
 
 - name: Xavier de Radiguès
   pic: 2
