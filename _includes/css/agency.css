@@ -314,8 +314,8 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
-    /*background-attachment: fixed;*/
+    /*background-attachment: scroll;*/
+    background-attachment: fixed;
     /*background-image: url('{{ site.baseurl }}/img/header-bg.jpg');*/
     /*background-image: url('{{ site.baseurl }}/img/sl_morning.jpg');    */
     /*background-image: url('{{ site.baseurl }}/img/ebola_bike.jpg');*/
