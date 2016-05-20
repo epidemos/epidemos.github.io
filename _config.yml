@@ -22,16 +22,17 @@ people:
       url: /cv/cv_polonsky.pdf
     - title: graduation-cap
       url: https://www.researchgate.net/profile/Jonathan_Polonsky
-    - title: twitter
-      url: http://twitter.com/jonny_polonsky
     - title: linkedin
       url: https://www.linkedin.com/in/jonnypolonsky
-    # - title: stack-overflow
-    #   url: http://stackoverflow.com/users/1540735/jonny-polonsky
     - title: github
       url: http://github.com/jpolonsky
     - title: pencil
       url: http://communicationinscience.com
+    - title: twitter
+      url: http://twitter.com/jonny_polonsky
+    # - title: stack-overflow
+    #   url: http://stackoverflow.com/users/1540735/jonny-polonsky
+    
 
 
 - name: Xavier de Radiguès
