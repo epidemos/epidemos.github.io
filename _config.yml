@@ -20,13 +20,13 @@ people:
     #   url: mailto:jonathan@epidemos.com
     - title: file-text-o
       url: /cv/cv_polonsky.pdf
-    - title: graduation-cap
+    - title: researchgate
       url: https://www.researchgate.net/profile/Jonathan_Polonsky
     - title: linkedin
       url: https://www.linkedin.com/in/jonnypolonsky
     - title: github
       url: http://github.com/jpolonsky
-    - title: pencil
+    - title: presentation
       url: http://communicationinscience.com
     - title: twitter
       url: http://twitter.com/jonny_polonsky
