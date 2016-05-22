@@ -23,8 +23,8 @@ people:
       url: https://www.researchgate.net/profile/Jonathan_Polonsky
     - title: linkedin
       url: https://www.linkedin.com/in/jonnypolonsky
-    - title: github
-      url: http://github.com/jpolonsky
+    # - title: github
+    #   url: http://github.com/jpolonsky
     - title: presentation
       url: http://communicationinscience.com
     - title: twitter
