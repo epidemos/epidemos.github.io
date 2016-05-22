@@ -1,7 +1,7 @@
 ---
 title: Country capacity survey
 subtitle: Online survey analyzer
-project_website: https://prime.shinyapps.io/capacities/
+project_website: http://apps.epidemos.com/capacities/
 layout: default
 modal-id: 2
 date: 2016-05-20

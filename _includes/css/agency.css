@@ -193,7 +193,7 @@ fieldset[disabled] .btn-xl.active {
 .btn-circle:focus {
     outline: 0;
     color: #fff;
-    background: rgba(255,255,255,.1);
+    background: rgba(255,255,255,.3);
 }
 
 .btn-circle i.animated {
@@ -573,7 +573,7 @@ header .intro-text .image-desc {
     font-size: 12px;
     line-height: 40px;
     padding-bottom: 0px;
-    /*position: relative; */ 
+    /*position: relative;  */
     /* Add this back in to limit to container width*/
 }
 
@@ -608,6 +608,37 @@ header .intro-text .image-desc span{
         font-weight: 700;
         line-height: 75px;
     }
+
+    header .intro-text .intro-follow-up {
+        margin-bottom: 25px;
+        font-family: {{ site.data.template.font.secondary }};
+        /*font-family: {{ site.data.template.font.primary }};*/
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+        padding-bottom: 0px;
+        /*background: rgba(0, 0, 0, 0.2);*/
+    }
+
+    header .intro-text .image-desc {
+        margin-bottom: 0px;
+        /*font-family: {{ site.data.template.font.secondary }};*/
+        font-family: {{ site.data.template.font.primary }};
+        font-size: 12px;
+        line-height: 40px;
+        padding-bottom: 0px;
+        /*position: relative;  */
+        /* Add this back in to limit to container width*/
+    }
+
+
+    header .intro-text .image-desc span{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding-right: 50px;
+    }
+
 }
 
 /*section {
@@ -1050,11 +1081,12 @@ header .intro-text .image-desc span{
         width: 40px;
         height: 40px;
         border-radius: 100%;
-        font-size: 20px;
-        line-height: 40px;
+        font-size: 22px;
+        line-height: 43px;
         outline: 0;
         color: #fff;
         background-color: #222;
+        /*color: #222;*/
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;

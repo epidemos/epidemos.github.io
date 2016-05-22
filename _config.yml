@@ -14,11 +14,10 @@ people:
 - name: Jonathan Polonsky
   pic: 1
   position: Epidemiologist/Lead data scientist
-  cv: <a href="/cv/cv_polonsky.pdf" download>
   social:
     # - title: envelope-o
     #   url: mailto:jonathan@epidemos.com
-    - title: file-text-o
+    - title: file-pdf-o
       url: /cv/cv_polonsky.pdf
     - title: researchgate
       url: https://www.researchgate.net/profile/Jonathan_Polonsky
@@ -32,19 +31,20 @@ people:
       url: http://twitter.com/jonny_polonsky
     # - title: stack-overflow
     #   url: http://stackoverflow.com/users/1540735/jonny-polonsky
-    
+  bio: Jonathan received an undergraduate degree in Human Sciences at Oxford University, followed by a postgraduate degree in epidemiology at the London School of Hygiene and Tropical Medicine (LSHTM). He has been involved in conducting and communicating biomedical research in a variety of posts at LSHTM, the World Health Organization (WHO), and Médecins Sans Frontières (MSF). Jonathan is currently employed part-time as an epidemiologist with Epicentre (a research department of MSF), and as Senior Health Advisor to Relief International. Jonathan is a member of the European Association of Science Editors (EASE), and has conducted workshops in scientific communication in a number of countries, including France, Germany, Spain, Morocco, Myanmar, and Senegal.
 
 
 - name: Xavier de Radiguès
   pic: 2
   position: Epidemiologist/Senior health advisor
   social:
-    - title: file-text-o
+    - title: file-pdf-o
       url: /cv/cv_deradigues.pdf
     - title: linkedin
       url: #
     - title: facebook
       url: #
+  bio: Xavier Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse. Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse. Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse. Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)

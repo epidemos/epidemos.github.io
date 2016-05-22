@@ -1,7 +1,7 @@
 ---
 title: Pledges & contributions
 subtitle: Online financial tracking tool
-project_website: https://prime.shinyapps.io/pledges/
+project_website: http://apps.epidemos.com/pledges/
 layout: default
 modal-id: 3
 date: 2016-05-20
