@@ -1,14 +1,10 @@
-# Services
-## What we provide
+Bio
 
-### Survey design with mobile data collection
-With many years expertise and experience in conducting complex surveys in challenging contexts, we will design your survey according to the most rigorous epidemiological methods, prepare and deliver training modules for the survey enumerators, and set up data collection, including the possibility to use mobile data collection to reduce error and time-lag between data collection and analysis.
+Jonathan received an undergraduate degree in <a href="http://www.ihs.ox.ac.uk/">Human Sciences</a> at <a href="http://www.ox.ac.uk/">Oxford University</a>, followed by a postgraduate degree in epidemiology at the <a href="http://www.lshtm.ac.uk/">London School of Hygiene and Tropical Medicine</a> (LSHTM). He has been involved in conducting and communicating biomedical research in a variety of posts at LSHTM, the <a href="http://who.int/en/">World Health Organization</a> (WHO), <a href="http://www.msf.org/">Médecins Sans Frontières</a> (MSF), and <a href="http://epicentre.msf.org/">Epicentre</a> (a research department of MSF). His interests are focussed on research methodology, reproducible research, and effective scientific communication. He has conducted research and provided trainings in a wide variety of contexts over the past 10 years.
 
-### Establishing surveillance and other monitoring products
-Whether you need to set-up basic project monitoring and evaluation or establish a full early-warning alert and response (EWARS) surveillance system, we can help ease the process. We will help you identify the core indicators to track, ensure enumerators are fully trained, data collection systems are in place, and that the data can be explored in real-time and reports generated on command.
+<a href=""></a>
 
-### Automated data analysis, visualisation & reporting
-Using the latest in open-source technologies, we will build and customize an interactive, automated data analysis, visualisation and reporting workflow. Whether it's a one-off survey or a long-term project requiring ongoing monitoring, you will always have access to the latest information - prepared and presented - allowing you to be more reactive and timely in your decision-making.
+<a href="https://www.r-project.org/">R</a>
 
-### Training & capacity building
-Core to our mission is the belief that we have a duty to build local capacity through workshops and training. We currently offer courses in basic epidemiological principles (with a focus on humanitarian public health); outbreak investigation; scientific communication (with a focus on how to structure a manuscript/presentation in order to prepare it for publication); and performing reproducible research using open-source tools (R + Shiny + RMarkdown/LaTeX).
+
+
