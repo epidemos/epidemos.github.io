@@ -4,7 +4,7 @@ Jonathan received an undergraduate degree in <a href="http://www.ihs.ox.ac.uk/">
 
 <a href=""></a>
 
-<a href="https://www.r-project.org/">R</a>
+<a href="http://shiny.rstudio.com/">Shiny package</a>
 
 
 
