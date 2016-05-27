@@ -1,4 +1,4 @@
-/*{% include css/bootstrap.min.css %}*/
+{% comment %} {% include css/bootstrap.min.css %} {% endcomment %} 
 {% include css/bootstrap.css %}
 {% include css/agency.css %}
 {{ content }}
