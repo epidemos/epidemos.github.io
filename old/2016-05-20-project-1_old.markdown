@@ -1,12 +1,12 @@
 ---
-title: Rainfall explorer
-subtitle: Real-time global rainfall visualizer
-project_website: http://apps.epidemos.com/rainfall/
+title: Mapper
+subtitle: Online mapping tool
+project_website: https://epidemos.shinyapps.io/mapper/
 layout: default
-modal-id: 3
+modal-id: 1
 date: 2016-05-20
-img: rainfall.png
-thumbnail: rainfall.png
+img: mapper.png
+thumbnail: mapper.png
 alt: image-alt
 project-date: April 2016
 client: World Health Organisation

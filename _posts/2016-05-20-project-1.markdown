@@ -1,12 +1,12 @@
 ---
-title: Mapper
-subtitle: Online mapping tool
-project_website: https://epidemos.shinyapps.io/mapper/
+title: Pledges & contributions
+subtitle: Online financial tracking tool
+project_website: http://apps.epidemos.com/pledges/
 layout: default
 modal-id: 1
 date: 2016-05-20
-img: mapper.png
-thumbnail: mapper.png
+img: pledges.png
+thumbnail: pledges.png
 alt: image-alt
 project-date: April 2016
 client: World Health Organisation
