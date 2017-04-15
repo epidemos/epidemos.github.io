@@ -2,7 +2,8 @@
 color:
   # primary: fed136
   primary: 0099CC
-  secondary: fec503   
+  # secondary: fec503   
+  secondary: 0099CC   
   secondary-dark: 333
   muted: 777
 
