@@ -1,76 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Epidemos logo">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Epidemos logo mark">
   <title>Epidemos</title>
-  <defs>
-    <radialGradient id="globeBg" cx="38%" cy="32%" r="68%">
-      <stop offset="0%" stop-color="#0D2545"/>
-      <stop offset="100%" stop-color="#04101E"/>
-    </radialGradient>
-    <linearGradient id="curveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#10B981"/>
-      <stop offset="48%"  stop-color="#06B6D4"/>
-      <stop offset="100%" stop-color="#10B981"/>
-    </linearGradient>
-    <clipPath id="gc">
-      <circle cx="60" cy="60" r="53"/>
-    </clipPath>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="1.4" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="redglow" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
 
-  <!-- Outer glow rings -->
-  <circle cx="60" cy="60" r="58.5" fill="none" stroke="#06B6D4" stroke-width="0.4" opacity="0.12"/>
-  <circle cx="60" cy="60" r="56"   fill="none" stroke="#06B6D4" stroke-width="0.6" opacity="0.18"/>
+  <!-- Globe outline -->
+  <circle cx="100" cy="100" r="87" fill="none" stroke="#0D2137" stroke-width="1.5"/>
 
-  <!-- Globe fill -->
-  <circle cx="60" cy="60" r="54" fill="url(#globeBg)"/>
+  <!-- ─── Navy mesh lines ──────────────────────────────────── -->
+  <path fill="none" stroke="#0D2137" stroke-width="0.85" opacity="0.65"
+    d="
+    M100,15 L76,28  M100,15 L124,28
+    M76,28 L124,28  M76,28 L52,46   M76,28 L100,42  M124,28 L100,42  M124,28 L148,46
+    M52,46 L100,42  M100,42 L148,46
+    M52,46 L24,66   M52,46 L60,58   M100,42 L60,58  M100,42 L90,55   M100,42 L110,55
+    M148,46 L110,55 M148,46 L140,58 M148,46 L176,66
+    M90,55 L110,55  M110,55 L140,58 M140,58 L176,66
+    M24,66 L48,78   M60,58 L48,78   M60,58 L74,74   M90,55 L74,74
+    M90,55 L100,72  M110,55 L100,72 M110,55 L126,74 M140,58 L126,74
+    M140,58 L152,78 M176,66 L152,78 M176,66 L184,86
+    M74,74 L100,72  M100,72 L126,74 M126,74 L152,78 M152,78 L184,86
+    M48,78 L28,106  M48,78 L58,100  M74,74 L58,100  M74,74 L82,97
+    M100,72 L82,97  M100,72 L118,97 M126,74 L118,97
+    M152,78 L118,97 M152,78 L142,100 M184,86 L142,100 M184,86 L172,106
+    M82,97 L118,97  M118,97 L142,100 M142,100 L172,106
+    M28,106 L46,120  M58,100 L46,120  M58,100 L78,116 M82,97 L78,116
+    M82,97 L100,114  M118,97 L100,114 M118,97 L122,116 M142,100 L122,116
+    M142,100 L154,120 M172,106 L154,120
+    M46,120 L78,116  M78,116 L100,114 M100,114 L122,116 M122,116 L154,120
+    M46,120 L68,130  M78,116 L68,130  M78,116 L100,130 M100,114 L100,130
+    M122,116 L100,130 M122,116 L132,130 M154,120 L132,130
+    M68,130 L100,130 M100,130 L132,130
+    M68,130 L100,142 M100,130 L100,142 M132,130 L100,142
+    M52,46 L48,78   M110,55 L126,74  M60,58 L100,72
+    M142,100 L154,120
+    "/>
 
-  <!-- Globe border -->
-  <circle cx="60" cy="60" r="54" fill="none" stroke="#06B6D4" stroke-width="1.4"/>
+  <!-- ─── Teal "E" lines ──────────────────────────────────── -->
+  <path fill="none" stroke="#1A9E96" stroke-width="2" stroke-linecap="round"
+    d="
+    M24,66 L60,58  M60,58 L90,55
+    M24,66 L16,86
+    M16,86 L48,78  M48,78 L74,74
+    M16,86 L28,106
+    M28,106 L58,100  M58,100 L82,97
+    "/>
 
-  <!-- Geographic grid (very subtle) -->
-  <g clip-path="url(#gc)" fill="none" stroke="#0F2D4A" stroke-width="0.55">
-    <line x1="60" y1="7"   x2="60"  y2="113"/>
-    <line x1="7"  y1="60"  x2="113" y2="60"/>
-    <ellipse cx="60" cy="60" rx="54" ry="18"/>
-    <ellipse cx="60" cy="60" rx="54" ry="36"/>
-    <ellipse cx="60" cy="60" rx="18" ry="54"/>
-    <ellipse cx="60" cy="60" rx="36" ry="54"/>
+  <!-- ─── Navy dots (all non-teal nodes) ──────────────────── -->
+  <g fill="#0D2137">
+    <circle cx="100" cy="15"  r="3"/>
+    <circle cx="76"  cy="28"  r="3"/>  <circle cx="124" cy="28"  r="3"/>
+    <circle cx="52"  cy="46"  r="3"/>  <circle cx="100" cy="42"  r="3"/>  <circle cx="148" cy="46"  r="3"/>
+    <circle cx="110" cy="55"  r="3"/>  <circle cx="140" cy="58"  r="3"/>  <circle cx="176" cy="66"  r="3"/>
+    <circle cx="100" cy="72"  r="3"/>  <circle cx="126" cy="74"  r="3"/>
+    <circle cx="152" cy="78"  r="3"/>  <circle cx="184" cy="86"  r="3"/>
+    <circle cx="118" cy="97"  r="3"/>  <circle cx="142" cy="100" r="3"/>  <circle cx="172" cy="106" r="3"/>
+    <circle cx="46"  cy="120" r="3"/>  <circle cx="78"  cy="116" r="3"/>
+    <circle cx="100" cy="114" r="3"/>  <circle cx="122" cy="116" r="3"/>  <circle cx="154" cy="120" r="3"/>
+    <circle cx="68"  cy="130" r="3"/>  <circle cx="100" cy="130" r="3"/>  <circle cx="132" cy="130" r="3"/>
+    <circle cx="100" cy="142" r="3"/>
   </g>
 
-  <!-- Epidemic curve baseline (x-axis / time axis) -->
-  <line x1="13" y1="88" x2="107" y2="88"
-    stroke="#1A3A5C" stroke-width="0.9" clip-path="url(#gc)"/>
-
-  <!-- Filled area under epidemic curve -->
-  <path d="M 14,88 C 22,84 30,70 40,50 S 53,26 62,21 S 76,30 88,54 S 100,77 106,88 Z"
-    fill="rgba(6,182,212,0.07)"
-    clip-path="url(#gc)"/>
-
-  <!-- Epidemic curve — rises to peak then falls -->
-  <path d="M 14,88 C 22,84 30,70 40,50 S 53,26 62,21 S 76,30 88,54 S 100,77 106,88"
-    fill="none"
-    stroke="url(#curveGrad)"
-    stroke-width="2.5"
-    stroke-linecap="round"
-    clip-path="url(#gc)"
-    filter="url(#glow)"/>
-
-  <!-- Data points — rising phase -->
-  <circle cx="14"  cy="88" r="2.6" fill="#10B981" clip-path="url(#gc)"/>
-  <circle cx="35"  cy="64" r="2.6" fill="#10B981" clip-path="url(#gc)"/>
-  <circle cx="52"  cy="34" r="2.6" fill="#06B6D4" clip-path="url(#gc)"/>
-
-  <!-- Peak — alert -->
-  <circle cx="62" cy="21" r="3.5"  fill="#EF4444" clip-path="url(#gc)" filter="url(#redglow)"/>
-  <circle cx="62" cy="21" r="6.5"  fill="none" stroke="#EF4444" stroke-width="0.8" opacity="0.35" clip-path="url(#gc)"/>
-
-  <!-- Data points — falling phase -->
-  <circle cx="82"  cy="40" r="2.6" fill="#06B6D4" clip-path="url(#gc)"/>
-  <circle cx="98"  cy="70" r="2.6" fill="#10B981" clip-path="url(#gc)"/>
+  <!-- ─── Teal "E" nodes (larger) ──────────────────────────── -->
+  <g fill="#1A9E96">
+    <circle cx="24"  cy="66"  r="5"/>
+    <circle cx="60"  cy="58"  r="5"/>
+    <circle cx="90"  cy="55"  r="5"/>
+    <circle cx="16"  cy="86"  r="5"/>
+    <circle cx="48"  cy="78"  r="5"/>
+    <circle cx="74"  cy="74"  r="5"/>
+    <circle cx="28"  cy="106" r="5"/>
+    <circle cx="58"  cy="100" r="5"/>
+    <circle cx="82"  cy="97"  r="5"/>
+  </g>
 </svg>
