@@ -1,103 +1,46 @@
 <!-- Navigation -->
-<!-- <nav class="navbar navbar-default navbar-fixed-top"> -->
-<nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <!-- <div class="navbar-header page-scroll"> -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <!-- <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a> -->
-            {% if site.title-img %}
-                <a class="navbar-brand navbar-brand-logo" href="{{ site.url }}"><img src="{{ site.title-img }}"/></a>
-            {% else %}
-                <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
-            {% endif %}
-        </div>
+<nav class="site-nav" id="site-nav">
+  <a href="/" class="nav-brand">
+    <img src="/img/logo.svg" alt="Epidemos" class="nav-logo-mark">
+    epidemos
+  </a>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <!-- <div class="collapse navbar-collapse" id="#main-navbar"> -->
-            <ul class="nav navbar-nav navbar-right">
-                <li class="hidden">
-                    <a href="#page-top"></a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#services">
-                        Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">
-                            Portfolio</a>
-                        </li>
-                    <!-- <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Team</a>
-                    </li> -->
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                    <li>
-                        <a href="/about">About</a>
-                    </li>
-                </ul>
-            </div>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="/about">About</a></li>
+  </ul>
 
-            {% if page.image and (layout.show-avatar or page.show-avatar) %}
-            <div class="avatar-container">
-              <div class="avatar-img-border">
-                <a href="{{ site.url }} ">
-                  <img class="avatar-img" src="{{ page.image | prepend: site.baseurl | replace: '//', '/' }}" />
-              </a>
-          </div>
-      </div>
-      {% elsif site.avatar and (layout.show-avatar or page.show-avatar) %}
-      <div class="avatar-container">
-          <div class="avatar-img-border">
-            <a href="{{ site.url }} ">
-              <img class="avatar-img" src="{{ site.avatar | prepend: site.baseurl | replace: '//', '/' }}" />
-          </a>
-      </div>
+  <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+</nav>
+
+<!-- Hero -->
+<header class="hero" id="page-top">
+  <div class="hero-content">
+
+    <img src="/img/logo.svg" alt="Epidemos globe logo" class="hero-logo-mark">
+
+    <h1 class="hero-wordmark"><span class="accent">epi</span>demos</h1>
+
+    <p class="hero-tagline">
+      Epidemiology in disasters, emergencies, and outbreak settings
+    </p>
+
+    <div class="hero-cta">
+      <a href="#services" class="btn btn-primary">Our Services</a>
+      <a href="#contact" class="btn btn-outline">Get in Touch</a>
+    </div>
+
   </div>
-  {% endif %}
 
-    
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-
-                <div class="intro-heading">Epidemos</div>
-                <div class="intro-follow-up">Epidemiology in disasters, emergencies, and outbreak settings</div>
-                <!-- <a href="#services" class="page-scroll btn btn-xl">Find out more</a> -->
-                <a href="#services" class="btn btn-circle page-scroll">
-                    <i class="icon-angle-double-down animated"></i></a>
-
-<!--                     <div class="image-desc">
-                        <span>
-                        Planning an Ebola outbreak investigation, Port Loko, Sierra Leone, 2014
-                        &copy; Jonathan Polonsky
-                        </span>
-                    </div> -->
-
-                </div>
-            </div>
-        </header>
-
-<!--
-        {% for page in site.pages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-        {% endfor %}
-    -->
-
+  <a href="#services" class="scroll-indicator" aria-label="Scroll to services">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="12" y1="5" x2="12" y2="19"/>
+      <polyline points="19 12 12 19 5 12"/>
+    </svg>
+  </a>
+</header>

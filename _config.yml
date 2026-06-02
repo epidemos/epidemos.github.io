@@ -1,7 +1,5 @@
 url: https://epidemos.github.io
-#url: https://epidemos.com
-#baseurl: /agency-jekyll-theme/
-baseurl: /epidemos.github.io/
+baseurl: ""
 
 # Site settings
 title: epidemos

@@ -1,22 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 {% include head.html %}
 
+<body>
+  {% include header.html %}
+  {% include services.html %}
+  {% include approach.html %}
+  {% include contact.html %}
+  {% include footer.html %}
 
-<body id="page-top" class="index">
+  <script>
+    // Navbar scroll effect
+    const nav = document.getElementById('site-nav');
+    window.addEventListener('scroll', function () {
+      nav.classList.toggle('is-scrolled', window.scrollY > 60);
+    }, { passive: true });
 
-    {% comment %} {% include nav.html %} {% endcomment %} 
-    {% include header.html %}
-    {% include services.html %}
-    {% include portfolio_grid.html %}
-    {% comment %} {% include about.html %} {% endcomment %}
-    {% comment %} {% include team.html %} {% endcomment %} 
-    {% comment %} {% include clients.html %} {% endcomment %}
-    {% include contact.html %}
-    {% include footer.html %}
-    {% include modals.html %}
-    {% include js.html %}
+    // Mobile menu
+    const toggle = document.getElementById('nav-toggle');
+    const links  = document.getElementById('nav-links');
+    if (toggle) {
+      toggle.addEventListener('click', function () {
+        links.classList.toggle('open');
+      });
+      // Close on link click
+      links.querySelectorAll('a').forEach(function (a) {
+        a.addEventListener('click', function () { links.classList.remove('open'); });
+      });
+    }
 
+    // Fade-up on scroll
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.fade-up').forEach(function (el) { observer.observe(el); });
+  </script>
 </body>
 </html>
